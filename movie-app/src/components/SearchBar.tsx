@@ -1,13 +1,13 @@
-const SearchBar = ({ title, setTitle }) => {
-  const handleInput = (event) => {
-    setTitle(event.target.value);
-  };
+// const SearchBar = ({ title, setTitle }) => {
+//   const handleInput = (event) => {
+//     setTitle(event.target.value);
+//   };
 
-  return (
-    <div>
-      <input type="text" value={title} onChange={handleInput} />
-    </div>
-  );
-};
+//   return (
+//     <div>
+//       <input type="text" value={title} onChange={handleInput} />
+//     </div>
+//   );
+// };
 
-export default SearchBar;
+// export default SearchBar;
